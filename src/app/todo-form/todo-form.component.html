@@ -1,0 +1,27 @@
+<div class="container form">
+<h1 class="mat-dialog-title">Add Todo</h1>
+<div class=" mat-dialog-content">
+   <form [formGroup] = "todoForm">
+    <mat-form-field appearance="outline">
+        <mat-label>ID</mat-label>
+        <input formControlName="Id" matInput>
+      </mat-form-field>
+      <mat-form-field appearance="outline">
+        <mat-label>Todo</mat-label>
+        <input formControlName="Todo" matInput>
+      </mat-form-field>
+      <mat-form-field appearance="outline">
+        <mat-label>Status</mat-label>
+        <input formControlName="Status" matInput>
+      </mat-form-field>
+      <mat-form-field appearance="outline">
+        <mat-label>Date</mat-label>
+        <input formControlName="Date" matInput>
+      </mat-form-field>
+   </form>
+      <div mat-dialog-action [align] = "'end'">
+     <button mat-raised-button color="warn" mat-dialog-close>Cancel</button>
+     <button style="margin-left: 8px;" mat-raised-button color="primary" (click)="addTodo()">{{actionBtn}}</button>
+      </div>
+</div>
+</div>

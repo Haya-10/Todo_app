@@ -1,0 +1,11 @@
+/* .mat-dialog-title , .mat-dialog-content  {
+    margin-left: 50px;
+} */
+
+.form{
+    padding: 40px;
+}
+
+mat-form-field{
+    width: 100%;
+}

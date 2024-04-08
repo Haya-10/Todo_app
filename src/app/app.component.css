@@ -1,0 +1,27 @@
+.header {
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+  }
+  
+  h3{
+    font-weight:600;
+    font-size: 35px;
+  }
+  table {
+    width: 100%;
+  }
+  
+  .mat-mdc-form-field {
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .table{
+    padding: 50px;
+  }
+
+ .table th{
+  font-weight: bold;
+ }
